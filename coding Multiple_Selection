@@ -1,0 +1,33 @@
+package selProgramming;
+
+class Multiple_Selection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		int a;
+		
+		System.out.print("PLEASE ENTER VALUE FOR A : ");
+		a=sc.nextInt();
+		
+		if (a>=1)
+		{
+			  System.out.println ("\nThe number you enter is :" + a);
+			  System.out.println ("You enter the positive number");	
+	  }		
+		else if (a<0)
+		{	
+			  System.out.println ("\nThe number you enter is :" + a);
+			  System.out.println ("You enter the negative number");	
+	  }
+		else 
+		{	
+			  System.out.println ("\nThe number you enter is :" + a);
+			  System.out.println ("You enter the zero number");	
+		}
+
+		
+	}
+
+}
