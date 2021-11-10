@@ -1,0 +1,23 @@
+package selProgramming;
+
+class If_else_Statement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double amount= 37.67, balance=135.90, OVERDRAFT_PENALTY=10;
+		
+		if (amount <= balance)
+		{	balance = balance - amount;
+		System.out.println("Account new balance = " +balance);
+		}
+		
+		else  
+		{ balance = balance - OVERDRAFT_PENALTY;
+		System.out.println("TRANSACTION NOT ALLOWED");
+		}	
+
+
+	}
+
+}
