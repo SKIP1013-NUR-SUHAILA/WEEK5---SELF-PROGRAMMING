@@ -1,0 +1,22 @@
+package selProgramming;
+
+class If_else_Combination_with_Boolean_Operator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		int age;
+		
+		System.out.print("PLEASE ENTER YOUR AGE : ");
+		age=sc.nextInt();
+		
+		if  ((age >= 25) && (age <= 50))
+		{ System.out.println("\nYou are qualified to apply");
+		}
+		else 
+		{
+		     System.out.println("\nYou are NOT qualified to apply"); 
+		}
+	}
+
+}
