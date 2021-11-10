@@ -1,0 +1,19 @@
+package selProgramming;
+
+class If_Statement_Block_Statement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double amount=37, balance=574.86;
+		
+		if (amount <= balance)
+		{
+		balance = balance - amount;
+		
+		System.out.println("Account latest balance = " + balance);
+		}
+
+	}
+
+}
